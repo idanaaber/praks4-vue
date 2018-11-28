@@ -12,6 +12,7 @@
        <li><router-link to="/home">Avaleht</router-link></li>
        
     </ul>
+
   </nav>
   <section class="hero">
         <h1>Meile meeldivad loomad..</h1>

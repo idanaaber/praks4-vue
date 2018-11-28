@@ -6,6 +6,8 @@ import Loomad from './views/Loomad.vue';
 import Toetus from './views/Toetus.vue';
 import Varjupaigast from './views/Varjupaigast.vue';
 import Kaotatudloomad from './views/Kaotatudloomad.vue';
+import Multiple from './views/Multiple.vue';
+
 Vue.use(Router);
 
 export default new Router({
@@ -40,6 +42,12 @@ export default new Router({
       path: '/varjupaigast',
       name: 'varjupaigast',
       component: Varjupaigast,
+
+    },
+    {
+      path: '/multiple',
+      name: 'multiple',
+      component: Multiple,
 
     },
     {

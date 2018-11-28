@@ -36,6 +36,10 @@
 
 #navbarsecond {
 	background-color: #9099A2;
+	padding: 25px;
+	display: flex;
+	justify-content: space-between;
+
 }
 
 
@@ -43,6 +47,8 @@
 	float: right;
 	display: inline-block;
 	padding-left: 20px;
+
+
 	
 }
 
@@ -50,6 +56,7 @@
 	text-decoration: none;
 	font-size: 16px;
 	font-weight: 400;
+	color: black;
 	
 }
 
@@ -204,29 +211,87 @@
 	
 }
 
+.location {
+	display: flex;
+	width: 100%;
+    margin: 0 auto;
+    
+}
+
+#maps {
+	margin-top: 20%;
+	margin-left: 6%;
+    padding-top: 10px;
+    width: 25vw;
+    height: 40vh;
+
+}
+
+.loco {
+	margin-top: 20%;
+	margin-left: 20%;
+}
+
 .loco h1 {
 	color: white;
-
 	font-size: 50px;
-	padding-top: 250px;
 }
 
 .loco h2 {
 	color: white;
-	padding-top: 100px;
-	margin-left: 500px;
-}
-
-
-#maps {
-	float: right;
-	margin-top: 250px;
-	margin-right: 50px;
-	border-style: solid;
-	border-color: grey;
-	border-width: 10px;
+	text-align: center;
+	padding-top: 50px;
 	
 }
+
+@media only screen and (max-width: 1570px) {
+    .location {
+    flex-direction: column;
+
+    }
+    #maps {
+	margin: 0 auto;
+	margin-top: 220px;
+    padding-top: 10px;
+    width: 40vw;
+    height: 40vh;
+
+	}
+	.loco {
+	margin: 0 auto;
+	}
+
+	.loco h2 {
+	padding-top: 15px;
+	
+	}
+	.loco h1 {
+	
+	padding-top: 20px;
+	
+}
+
+   }
+
+
+@media only screen and (max-width: 540px) {
+    #maps {
+	margin: 0 auto;
+	margin-top: 220px;
+    padding-top: 10px;
+    width: 60vw;
+    height: 40vh;
+
+	}
+
+    
+    }
+    }
+
+
+
+
+
 
 
 .footer {
@@ -316,13 +381,317 @@
 }
 
 
-.flexbox-animals {
-  min-height: 400px;
-  display: flex;
-  display: -webkit-flex;
-  flex-wrap: nowrap;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
+/* Looma profiili sisu */
+
+.profile-container {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	width: 100%;
 }
+.profile-img-container {
+	width: 50vw;
+	height: 50vw;
+	margin-left: auto;
+	margin-right: auto;
+}
+.profile-img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.profile-text-container {
+	width: 30vw;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	margin-left: 5vw;
+	margin-right: auto;
+}
+.profile-name {
+	font-size: 36px;
+	font-weight: normal;
+	margin-bottom: 5vw;
+}
+.profile-text {
+	font-size: 18px;
+	line-height: 22px;
+}
+@media screen and (max-width: 787px) {
+	.menu h1 {
+		max-width: 70vw;
+	}
+	.profile-container {
+		display: flex;
+		flex-direction: column;
+	}
+	.profile-text-container {
+		width: 100%;
+	}
+	.profile-name {
+		margin-top: 30px;
+	}
+}
+@media only screen and (max-width: 480px) {
+	
+	.menu h1 {
+		padding-right: 30px;
+	}
+}
+
+
+/* Donation sisu */
+
+.toetus {
+	background-color: #6D7993;
+}
+
+.donation {
+font-family: 'Montserrat', sans-serif;
+font-size: 20px;
+line-height: 170%;
+width: 50%;
+margin-left: auto;
+margin-right: auto;
+padding-top: 50px;
+padding-bottom: 187px;
+}
+
+
+@media screen and (max-width: 787px) {
+	
+}
+@media only screen and (max-width: 480px) {
+	
+	
+}
+
+
+/* Varjupaigast  */
+
+
+.varjupaigast h1 {
+	padding-bottom: 50px;
+
+}
+
+.varjupaigast {
+	background-color: #6D7993;
+}
+
+.about {
+font-family: 'Montserrat', sans-serif;
+font-size: 20px;
+line-height: 170%;
+width: 50%;
+margin-left: auto;
+margin-right: auto;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+@media screen and (max-width: 787px) {
+	
+}
+@media only screen and (max-width: 480px) {
+	
+	
+}
+
+
+/* Kaotatud loomad section */ 
+
+.eestiekspress {
+	background-color: #6D7993;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+}
+
+
+.kadunud {
+	padding-left: 300px;
+	padding-bottom: 50px;
+	padding-top: 317px;
+
+
+}
+
+
+.kadunud2 {
+	padding-left: 50px;
+	padding-bottom: 50px;
+	padding-top: 317px;
+}
+
+
+.kadunud img {
+	height: 250px;
+	width: 250px;
+
+}
+
+.kadunud2 img {
+	height: 250px;
+	width: 250px;
+}
+
+
+.form-style-1 {
+	margin:10px auto;
+	max-width: 400px;
+	padding: 20px 12px 10px 20px;
+	font: 13px "Montserrat", sans-serif;
+}
+.form-style-1 li {
+	padding: 0;
+	display: block;
+	list-style: none;
+	margin: 10px 0 0 0;
+}
+.form-style-1 label{
+	margin:0 0 3px 0;
+	padding:0px;
+	display:block;
+	font-weight: bold;
+}
+
+select{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border:1px solid #BEBEBE;
+	padding: 7px;
+	margin:0px;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;	
+}
+
+.form-style-1 .field-divided{
+	width: 49%;
+}
+
+.form-style-1 .field-long{
+	width: 100%;
+}
+.form-style-1 .field-select{
+	width: 100%;
+}
+.form-style-1 .field-textarea{
+	height: 100px;
+}
+.form-style-1 input[type=submit], .form-style-1 input[type=button]{
+	background: #4B99AD;
+	padding: 8px 15px 8px 15px;
+	border: none;
+	color: #fff;
+}
+.form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover{
+	background: #4691A4;
+	box-shadow:none;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+}
+.form-style-1 .required{
+	color:red;
+}
+
+.wannabemylove {
+	padding-left: 300px;
+	padding-top: 317px;
+}
+
+
+
+/* Koerad listis */ 
+
+  .doggo {
+  display: grid;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-left: 120px;
+  grid-template-columns: auto auto auto;
+}
+.doggoinf {
+  height: 500px;
+  width: 360px;
+  display: block;
+}
+.doggoimg {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.doggocont {
+  height: 300px;
+  width: 300px;
+  margin-left: 30px;
+}
+.doggotext {
+  margin-left: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+}
+.doggonimi {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  margin-top: 10px;
+  line-height: 31px;
+  font-weight: normal;
+}
+.leitud {
+  margin-top: 10px;
+}
+.doggo a {
+  text-decoration: none;
+  color: #000;
+}
+@media screen and (max-width: 787px) {
+  
+.doggo {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  }
+  .doggoinf {
+    width: 100%;
+  }
+  .doggocont, .doggotext {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .menu h1 {
+    max-width: 70vw;
+  }
+}
+@media only screen and (max-width: 480px) {
+  
+  
+}
+
+
+
+
+
+
+
+

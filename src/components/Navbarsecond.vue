@@ -4,9 +4,9 @@
          <ul>
        <li><router-link to="/loomad">Loomad</router-link></li>
        <li><router-link to="/toetus">Toetus</router-link></li>
-       <li><router-link to="/kaotatud">Kaotatud loomad</router-link></li>
+       <li><router-link to="/kaotatudloomad">Kaotatud loomad</router-link></li>
        <li><router-link to="/varjupaigast">Varjupaigast</router-link></li>
-       <li><router-link to="/home">Avaleht</router-link></li>
+       <li><router-link to="/">Avaleht</router-link></li>
 
     </ul>
     </nav>

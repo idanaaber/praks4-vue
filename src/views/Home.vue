@@ -37,19 +37,17 @@
 
     </section>
 
-    <section class="location">
-    <section id="maps">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2028.4623362723985!2d24.37382351633579!3d59.44204138169843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469298435650eb75%3A0x3d91c11da19561ae!2sV%C3%A4%C3%A4na-Viti+Kodu%2C+Hoolekandeteenused+AS!5e0!3m2!1sen!2see!4v1540977556735" width="600" height="450" frameborder="0" style="border:0" allowfullscreen>
-          </iframe>
-      </section>
-        <section class="loco">
+  <section class="location">
+      <div id="maps">
+         <iframe class="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2093.6054081752854!2d26.71191935169235!3d58.34945819614565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eb3747db90ed05%3A0x387b666bb555e743!2sKopli+1%2C+50115+Tartu!5e0!3m2!1sen!2see!4v1540967788421" width="100%" height="100%" style="border:0" allowfullscreen></iframe>
+      </div>
+    <div class="loco">
     <h1> Asukoht </h1>
     <h2> Grigori kodutud MTÜ </h2>
     <h2> Väänaviti tee 69a, Männamaa, 6780 </h2>
     <h2> Varjupaik on avatud 12.00 - 19.00 </h2>
-
-      </section>
-      </section>
+    </div>
+  </section>
       </div>
     <Footer />
  </div>
